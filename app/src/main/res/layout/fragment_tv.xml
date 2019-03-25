@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFAFA"
+    android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFAFA"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFAFA"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_av"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_av"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_screen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_screen"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_power"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_power"
+                    android:text="@string/tv_power"
+                    android:textColor="@color/infotextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_key1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key1"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key2"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key3"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_key4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key4"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key5"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key6"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_key7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key7"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key8"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key9"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_key0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key0"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_key10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_key10"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_back"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_quit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_quit"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_menu"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_mute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_mute"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_chadd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_chadd"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/up"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_voladd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_voladd"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/left"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_ok"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/right"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/tv_chsub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_chsub"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/down"
+                    android:textColor="@color/btntextcolor" />
+
+                <Button
+                    android:id="@+id/tv_volsub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_normal"
+                    android:text="@string/tv_volsub"
+                    android:textColor="@color/btntextcolor" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
